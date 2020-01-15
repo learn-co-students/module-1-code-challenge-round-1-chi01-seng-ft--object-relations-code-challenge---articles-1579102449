@@ -8,7 +8,12 @@ end
 ###  WRITE YOUR TEST CODE HERE ###
 
 
-
+niko = Author.new("niko")
+blaizine = Magazine.new("blaize", "dance")
+cruzticle = Article.new(niko, blaizine, "brothers")
+tonto = Article.new(niko, blaizine, "siblings")
+mumzine = Magazine.new("mum", "mma")
+niko.add_article(mumzine, "steps")
 
 
 
